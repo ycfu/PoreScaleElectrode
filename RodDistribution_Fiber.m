@@ -40,11 +40,12 @@ Para.theta2_range = 60;    % arc angle range;
 count = 0;
 Electrode = [];
 
-% set the probability of generating carbon fibers
+% Control the orientations of the electrode by set the probability of generating carbon fibers
 prob_tot = (Para.xlen*Para.ylen+Para.xlen*Para.zlen+Para.ylen*Para.zlen);
 probx =  Para.ylen*Para.zlen/prob_tot;
 proby =  Para.xlen*Para.zlen/prob_tot;
 probz =  Para.xlen*Para.ylen/prob_tot;
+
 if strcmp(Flag.GenerationCriteria, 'FiberNumber')
     while count < Flag.FiberNumber
         count = count + 1;
