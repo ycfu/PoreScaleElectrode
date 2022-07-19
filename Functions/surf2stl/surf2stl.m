@@ -116,7 +116,7 @@ end
 
 fclose(fid);
 
-disp( sprintf('Wrote %d facets',nfacets) );
+% disp( sprintf('Wrote %d facets',nfacets) );
 
 
 
