@@ -6,4 +6,5 @@ The adjustable paramters include:
   2. Electrode porosity, total fiber nubmer. 
   3. Single electrode fiber diameter, radius and curvature.
   4. Orientaions of the electrodes.
+ 
  The generated sythetic electrodes are exported as seperate STL file for each single electrode, which can be used for further electrode morphology modification.
